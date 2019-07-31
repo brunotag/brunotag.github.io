@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "How to Set Up Your New iPhone 6 the Right Way"
+title:  "Gear up landing - Oh no!"
 date:   2019-01-02
-banner_image: /assets/images/posts/2019/iPhone-6.jpg
-tags: [tips, tech]
+banner_image: /assets/images/posts/2019/gear_up_landing.jpg
+tags: [hazards, checks]
 ---
 The **iPhone 6** and **iPhone 6 Plus** are [smartphones](https://en.wikipedia.org/wiki/Smartphone) designed and marketed by Apple Inc. The devices are part of the iPhone series and were unveiled on September 9, 2014, and released on September 19, 2014. The iPhone 6 and iPhone 6 Plus jointly serve as successors to the iPhone 5C and iPhone 5S.
 
