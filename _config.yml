@@ -13,22 +13,44 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Bravo Tango - Tales about flying
+email: bruno.tagliapietra@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Stories, impressions and feelings about soaring flight.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://brunotag.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Archives
+  url: /tags/
+
+repository: brunotag/brunotag.github.io.
+twitter_username: tbruno84
+github_username:  brunotag
 
 # Build settings
 markdown: kramdown
-theme: minima
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/page:num/'
+plugins: [jekyll-paginate]
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+remote_theme: JustGoodThemes/Scriptor-Jekyll-Theme
 plugins:
   - jekyll-feed
+  
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
