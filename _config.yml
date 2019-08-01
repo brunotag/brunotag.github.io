@@ -29,6 +29,13 @@ navigation:
 - text: Archives
   url: /tags/
 
+# Author information - author info at the bottom of the post
+author_name: "Bruno Tagliapietra"
+author_bio: "Bruno is learning to fly gliders, and loves to blog about it."
+author_url: "https://brunotag.github.io"
+author_location: "Wellington, New Zealand"
+author_image: /assets/images/authorimage.jpg
+
 repository: brunotag/brunotag.github.io.
 twitter_username: tbruno84
 github_username:  brunotag
@@ -40,6 +47,9 @@ markdown: kramdown
 paginate: 5
 paginate_path: '/page:num/'
 plugins: [jekyll-paginate]
+
+# The shortname for your Disqus site to enable comments.
+disqus: bravotango
 
 # Sass
 sass:
